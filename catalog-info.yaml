@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: github-issue-templates
+  annotations:
+    github.com/project-slug: victorborsoi/github-issue-templates
+spec:
+  type: other
+  lifecycle: unknown
