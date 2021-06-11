@@ -2,12 +2,18 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: github-issue-templates
+  tags:
+    - bugs_only
+  links:
+    - url: https://login.newrelic.com
+      title: My NewRelic Dashboard
+      icon: dashboard
   annotations:
     github.com/project-slug: victorborsoi/github-issue-templates  
     bitrise.io/app: 'backstage'
 spec:
   type: service
   lifecycle: experimental
-  owner: team-a  
+  owner: core-team
   system: artist-engagement-portal
   dependsOn: ['resource:artists-db']
