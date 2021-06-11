@@ -3,7 +3,12 @@ kind: Component
 metadata:
   name: github-issue-templates
   annotations:
-    github.com/project-slug: victorborsoi/github-issue-templates
+    github.com/project-slug: victorborsoi/github-issue-templates  
+    backstage.io/techdocs-ref: url:https://github.com/victorborsoi/github-issue-templates/tree/main
+    bitrise.io/app: 'backstage'
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: experimental
+  owner: team-a  
+  system: artist-engagement-portal
+  dependsOn: ['resource:artists-db']
