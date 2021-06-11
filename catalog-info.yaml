@@ -10,6 +10,7 @@ metadata:
       icon: dashboard
   annotations:
     github.com/project-slug: victorborsoi/github-issue-templates  
+    backstage.io/techdocs-ref: url:https://github.com/victorborsoi/github-issue-templates
     bitrise.io/app: 'backstage'
 spec:
   type: service
